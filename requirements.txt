@@ -1,0 +1,6 @@
+numpy~=1.22.2
+setuptools~=60.9.3
+spacy~=3.2.3
+tqdm~=4.63.0
+typeguard~=2.13.3
+wheel~=0.37.1

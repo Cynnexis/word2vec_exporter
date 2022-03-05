@@ -1,0 +1,31 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run word2vec_exporter (English JSON)",
+			"type": "shell",
+			"command": "python3 -m word2vec --lang en_core_web_lg --verbose --debug",
+			"problemMatcher": [],
+		},
+		{
+			"label": "Run word2vec_exporter (French JSON)",
+			"type": "shell",
+			"command": "python3 -m word2vec --lang fr_core_news_lg --verbose --debug",
+			"problemMatcher": [],
+		},
+		{
+			"label": "Run word2vec_exporter (Spanish JSON)",
+			"type": "shell",
+			"command": "python3 -m word2vec --lang es_core_news_lg --verbose --debug",
+			"problemMatcher": [],
+		},
+		{
+			"label": "YAPF",
+			"type": "shell",
+			"command": "yapf -ir \"${workspaceFolder}\"",
+			"problemMatcher": [],
+		}
+	],
+}

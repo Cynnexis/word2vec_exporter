@@ -1,0 +1,11 @@
+...
+# Conda environment file.
+#
+# It references requirements.txt to install the dependencies using pip.
+
+name: word2vec_exporter
+dependencies:
+  - pip:
+    - -r file:requirements.txt
+
+---
